@@ -1,9 +1,11 @@
 package Test;
 
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import baselibrary.BaseLibrary;
+import baselibrary.aftertest;
 import pages.SuitPage;
 
 public class SuitsTest extends BaseLibrary{
@@ -52,6 +54,5 @@ public class SuitsTest extends BaseLibrary{
 		ob.filldetails();
 
 	}
-	
 	
 }
