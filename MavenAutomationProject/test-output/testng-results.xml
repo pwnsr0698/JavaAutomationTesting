@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-23T23:38:01 GMT-07:00" name="Default suite" finished-at="2025-10-23T23:40:10 GMT-07:00" duration-ms="129130">
+    <groups>
+    </groups>
+    <test started-at="2025-10-23T23:38:01 GMT-07:00" name="Default test" finished-at="2025-10-23T23:40:10 GMT-07:00" duration-ms="129130">
+      <class name="Test.LaunchTest">
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:Test.LaunchTest@72cc7e6f]" started-at="2025-10-23T23:38:01 GMT-07:00" name="launchUrl" finished-at="2025-10-23T23:40:02 GMT-07:00" duration-ms="120364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="clickonclose()[pri:0, instance:Test.LaunchTest@72cc7e6f]" started-at="2025-10-23T23:40:03 GMT-07:00" name="clickonclose" finished-at="2025-10-23T23:40:08 GMT-07:00" duration-ms="5556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonclose -->
+        <test-method signature="gettitle()[pri:0, instance:Test.LaunchTest@72cc7e6f]" started-at="2025-10-23T23:40:08 GMT-07:00" name="gettitle" finished-at="2025-10-23T23:40:10 GMT-07:00" duration-ms="1900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettitle -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Test.LaunchTest@72cc7e6f]" started-at="2025-10-23T23:40:10 GMT-07:00" name="closeBrowser" finished-at="2025-10-23T23:40:10 GMT-07:00" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Test.LaunchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
