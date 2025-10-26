@@ -23,14 +23,14 @@ public class BaseLibrary implements waitutility, applicationutility{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();
 		
-		
+		System.out.println("Browser is sucessfully launching");
 	}
-	
 	
 	@AfterTest
 	public void closeBrowser() {
 	//driver.quit();
 	}
+	
 
 
 	@Override
