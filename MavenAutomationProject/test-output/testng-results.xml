@@ -1,29 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-23T23:38:01 GMT-07:00" name="Default suite" finished-at="2025-10-23T23:40:10 GMT-07:00" duration-ms="129130">
+  <suite started-at="2025-11-01T10:07:26 GMT-07:00" name="Default suite" finished-at="2025-11-01T10:09:27 GMT-07:00" duration-ms="121015">
     <groups>
     </groups>
-    <test started-at="2025-10-23T23:38:01 GMT-07:00" name="Default test" finished-at="2025-10-23T23:40:10 GMT-07:00" duration-ms="129130">
-      <class name="Test.LaunchTest">
-        <test-method is-config="true" signature="launchUrl()[pri:0, instance:Test.LaunchTest@72cc7e6f]" started-at="2025-10-23T23:38:01 GMT-07:00" name="launchUrl" finished-at="2025-10-23T23:40:02 GMT-07:00" duration-ms="120364" status="PASS">
+    <test started-at="2025-11-01T10:07:26 GMT-07:00" name="Default test" finished-at="2025-11-01T10:09:27 GMT-07:00" duration-ms="121015">
+      <class name="Test.SuitsTest">
+        <test-method is-config="true" signature="launchurl()[pri:0, instance:Test.SuitsTest@606e4010]" started-at="2025-11-01T10:07:26 GMT-07:00" name="launchurl" finished-at="2025-11-01T10:09:16 GMT-07:00" duration-ms="109561" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchUrl -->
-        <test-method signature="clickonclose()[pri:0, instance:Test.LaunchTest@72cc7e6f]" started-at="2025-10-23T23:40:03 GMT-07:00" name="clickonclose" finished-at="2025-10-23T23:40:08 GMT-07:00" duration-ms="5556" status="PASS">
+        </test-method> <!-- launchurl -->
+        <test-method signature="clickonCart()[pri:0, instance:Test.SuitsTest@606e4010]" started-at="2025-11-01T10:09:16 GMT-07:00" name="clickonCart" finished-at="2025-11-01T10:09:17 GMT-07:00" duration-ms="1186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonCart -->
+        <test-method signature="clickonallsuitssets()[pri:0, instance:Test.SuitsTest@606e4010]" started-at="2025-11-01T10:09:17 GMT-07:00" name="clickonallsuitssets" finished-at="2025-11-01T10:09:17 GMT-07:00" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonallsuitssets -->
+        <test-method signature="clickonclose()[pri:0, instance:Test.SuitsTest@606e4010]" started-at="2025-11-01T10:09:17 GMT-07:00" name="clickonclose" finished-at="2025-11-01T10:09:24 GMT-07:00" duration-ms="6712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickonclose -->
-        <test-method signature="gettitle()[pri:0, instance:Test.LaunchTest@72cc7e6f]" started-at="2025-10-23T23:40:08 GMT-07:00" name="gettitle" finished-at="2025-10-23T23:40:10 GMT-07:00" duration-ms="1900" status="PASS">
+        <test-method signature="clickonfeatured()[pri:0, instance:Test.SuitsTest@606e4010]" started-at="2025-11-01T10:09:24 GMT-07:00" name="clickonfeatured" finished-at="2025-11-01T10:09:24 GMT-07:00" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- gettitle -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Test.LaunchTest@72cc7e6f]" started-at="2025-10-23T23:40:10 GMT-07:00" name="closeBrowser" finished-at="2025-10-23T23:40:10 GMT-07:00" duration-ms="4" status="PASS">
+        </test-method> <!-- clickonfeatured -->
+        <test-method signature="clickonsearchbutton()[pri:0, instance:Test.SuitsTest@606e4010]" started-at="2025-11-01T10:09:24 GMT-07:00" name="clickonsearchbutton" finished-at="2025-11-01T10:09:25 GMT-07:00" duration-ms="590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonsearchbutton -->
+        <test-method signature="clickonsuitsets()[pri:0, instance:Test.SuitsTest@606e4010]" started-at="2025-11-01T10:09:25 GMT-07:00" name="clickonsuitsets" finished-at="2025-11-01T10:09:25 GMT-07:00" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonsuitsets -->
+        <test-method signature="filldetails()[pri:0, instance:Test.SuitsTest@606e4010]" started-at="2025-11-01T10:09:25 GMT-07:00" name="filldetails" finished-at="2025-11-01T10:09:25 GMT-07:00" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filldetails -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Test.SuitsTest@606e4010]" started-at="2025-11-01T10:09:25 GMT-07:00" name="closeBrowser" finished-at="2025-11-01T10:09:27 GMT-07:00" duration-ms="2499" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- Test.LaunchTest -->
+      </class> <!-- Test.SuitsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

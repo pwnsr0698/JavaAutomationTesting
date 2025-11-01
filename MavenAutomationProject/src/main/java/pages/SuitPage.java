@@ -30,6 +30,8 @@ public class SuitPage extends BaseLibrary {
 	 
 	 @FindBy(xpath="//span[text()='×']")
 	    private WebElement close;
+	 @FindBy(xpath="//button[@id=\"minicartTrigger\"]")
+	 private WebElement cart;
 	    
 	    
 	   public void close()
@@ -40,8 +42,9 @@ public class SuitPage extends BaseLibrary {
 	    }
 	 public void Suitsets()
 	    {
-	    	waitforclick(suitsets);
+	    	//waitforclick(suitsets);
 	    	//suitsets.click();
+		 actionClick(suitsets);
 	    }
 	 public void  clickonAllSuitsets()
 	 {
@@ -61,11 +64,14 @@ public class SuitPage extends BaseLibrary {
 	 }
 	 public void filldetails()
 	 {
-		 inputdetails.sendKeys("suit");
-		actionClick(search);
+		// inputdetails.sendKeys("suit");
+		//actionClick(search);
 		 
 	 }
-	
+	public void clickonCart()
+	{
+		actionClick(cart);
+	}
 }
 
 
