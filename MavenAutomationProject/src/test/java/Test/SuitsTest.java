@@ -1,11 +1,9 @@
 package Test;
 
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import baselibrary.BaseLibrary;
-import baselibrary.aftertest;
 import pages.SuitPage;
 
 public class SuitsTest extends BaseLibrary{
@@ -19,7 +17,7 @@ public class SuitsTest extends BaseLibrary{
 		ob= new SuitPage();
 	}
 	
-	@Test(priority=1)
+	@Test
 	public void clickonclose()
 	{
 		ob.close();
@@ -42,17 +40,23 @@ public class SuitsTest extends BaseLibrary{
 	{
 		//ob.clickonFeatured();
 	}
-	@Test(priority=2)
+	@Test
 	public void clickonsearchbutton()
 	{
 		ob.clickonsearchbutton();
 	}
 	
-	@Test(priority=3)
+	@Test
 	public void filldetails()
 	{
-		ob.filldetails();
+		//ob.filldetails();
 
+	}
+	
+	@Test
+	public void clickonCart()
+	{
+		ob.clickonCart();
 	}
 	
 }

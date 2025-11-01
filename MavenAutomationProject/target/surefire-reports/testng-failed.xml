@@ -5,13 +5,19 @@
     <classes>
       <class name="Test.SuitsTest">
         <methods>
+          <include name="clickonsuitsets"/>
           <include name="launchurl"/>
+          <include name="clickonclose"/>
+          <include name="clickonsearchbutton"/>
+          <include name="clickonallsuitssets"/>
+          <include name="clickonfeatured"/>
           <include name="filldetails"/>
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- Test.SuitsTest -->
       <class name="Test.LaunchTest">
         <methods>
+          <include name="gettitle"/>
           <include name="launchUrl"/>
           <include name="clickonclose"/>
           <include name="closeBrowser"/>
